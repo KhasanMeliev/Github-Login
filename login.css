@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(10, 12, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa-github{
+    background-color: white;
+    position: relative;
+    left: 285px;
+    bottom: -40px;
+    cursor: pointer;
+}
+.title{
+    position: relative;
+    left: 200px;
+    bottom: -10px;
+    color: rgb(211, 205, 205);
+    font-size: 30px;
+}
+.github{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(21, 24, 32);
+    position: relative;
+    left: 160px;
+    bottom: 10px;
+    border-radius: 10px;
+}
+
+#text{
+    width: 260px;
+    height: 25px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    position: relative;
+    left: 20px;
+    bottom: -30px;
+    border: 1px solid rgb(41, 39, 39);
+    border-radius: 5px;
+}
+#text:hover{
+    border: 2px solid blue;
+    outline: none;
+}
+#password{
+    width: 260px;
+    height: 25px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    position: relative;
+    left: 20px;
+    bottom: -60px;
+    border: 1px solid rgb(41, 39, 39);
+    border-radius: 5px;
+}
+#password:hover{
+    border: 2px solid blue;
+    outline: none;
+}
+#checkbox{
+    position: relative;
+    right: 255px; 
+    bottom: -100px;
+}
+#btn{
+    width: 267px;
+    height: 35px;
+    background-color: green;
+    color: rgb(206, 193, 193);
+    position: relative;
+    left: 20px;
+    bottom: -100px;
+    border: none;
+    cursor: pointer;
+}
+#output{
+    color: red;
+    position: relative;
+    left: 160px;
+    font-size: 20px;
+}
